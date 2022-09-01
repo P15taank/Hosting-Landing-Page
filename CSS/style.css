@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+/* navigation */
+nav {
+  float: right;
+  margin-top: 15px;
+}
+.nav-item {
+  margin-right: 100px;
+  color: gray;
+  font-weight: 700;
+}
+/*Register Now button */
+.nav-item-active {
+  background-color: transparent;
+  border: 2px solid rgb(139, 216, 246);
+  padding: 8px;
+  border-radius: 5px;
+  color: rgb(139, 216, 246);
+  margin-right: 20px;
+  font-weight: 900;
+  font-size: 15px;
+}
+.nav-item-active:hover {
+  background-color: rgb(139, 216, 246);
+  color: #000;
+}
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+/* logo */
+.logo svg {
+  height: 40px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+/* hosting css */
+.hosting,
+.cost,
+.support {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 420px;
+  margin-top: 30px;
+}
+.cost,
+.support {
+  margin-top: 150px;
+}
+.text-hosting,
+.text-cost,
+.text-support {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  margin-left: 125px;
+  height: 100%;
+  width: 500px;
+}
+h1,
+h2 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.para {
+  color: gray;
+  font-size: 20px;
+}
+.hosting-btn,
+.cost-btn,
+.support-btn {
+  height: 38px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to left, #3177f8, #54d3fa);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+.hosting-btn:hover,
+.cost-btn:hover,
+.support-btn:hover {
+  cursor: pointer;
+}
+.hosting-img,
+.cost-img,
+.support-img {
+  height: 350px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+/* service test */
+.service-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 125px;
+}
+.services {
+  display: flex;
+  height: 450px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 125px;
+}
+.service {
+  height: 250px;
+  width: 300px;
+  margin-left: 100px;
+}
+.serviceheading {
+  width: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.servicepara {
+  margin-top: 15px;
+}
+/* pricing style */
+.pricing {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, #3c71ed, #3177f8);
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 700px;
+}
+.pricehead {
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  margin-top: 50px;
+}
+.priceCard {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.starter,
+.popular,
+.Business {
+  height: 500px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.starterHead {
+  height: 60px;
+}
+.pacakagehead {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.packagepara {
+  color: gray;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+.features {
+  margin-top: 50px;
+}
+.feature-item {
+  display: flex;
+  list-style: none;
+  margin: 15px;
+}
+.tick {
+  height: 17px;
+  padding: 5px;
+}
+.price {
+  text-align: center;
+}
+.price h3 {
+  font-size: 25px;
+}
+.price p {
+  padding: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.pricebtn {
+  height: 38px;
+  width: 150px;
+  border: 2px solid #54d3fa;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #54d3fa;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px;
+}
+.pricebtn:hover {
+  background-color: #3d8ffa;
+  color: #fff;
+  border: 2px solid #3d8ffa;
+}
+/* customer head style */
+.customerHead {
+  margin-top: 100px;
+  text-align: center;
+}
+.customerHeading {
+  font-size: 40px;
+  margin: 20px;
+}
+/* customer feedback style */
+.cards {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 180px;
+  gap: 50px;
+  height: 700px;
+  flex-wrap: wrap;
+}
+.card {
+  border-radius: 7px;
+  background-color: #f5f5f5;
+  height: 300px;
+  width: 550px;
+}
+.cardpara {
+  margin-left: 30px;
+  margin-top: 30px;
+  color: gray;
+}
+.sub {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.CustomerName {
+  margin-top: 10px;
+  padding: 15px;
+}
+.designation {
+  margin-top: 10px;
+  color: gray;
+}
+/* oce-Hosting style */
+.oceHosting {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3177f8;
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 250px;
+}
+.oceHead {
+  margin-top: 0px;
+  padding: 50px;
+  height: 80px;
+  width: 415px;
+  color: #fff;
+}
+.oceHeading {
+  font-size: 40px;
+  padding: 10px;
+}
+.ocepara {
+  font-size: 12px;
+}
+.ocebtn {
+  margin-top: 100px;
+  margin-right: 50px;
+  height: 38px;
+  width: 150px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+/* footer style */
+.footer
+{
+  display: flex;
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 250px;
+  justify-content: space-around;
+  list-style: none;
+}
+.footerlogo img
+{
+  height: 30px;
+}
+.space
+{
+color: grey;
+  padding: 8px;
+}
+.active
+{
+color: #000;
+font-size: 18px;
+font-weight: 800;
+}
+.social-media
+{
+  display: flex;  
+}
+.social-media img
+{
+  height: 20px;
+  justify-content: space-around;
+  padding: 7px;
+}
