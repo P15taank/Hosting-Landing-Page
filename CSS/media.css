@@ -46,7 +46,8 @@ h2 {
   margin-top: 10px;
 }
 .para {
-  padding: 0px;
+   padding-top: 10px;
+padding-bottom: 10px;
   font-size: 15px;
   width: 100%;
 }
