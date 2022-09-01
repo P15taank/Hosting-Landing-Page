@@ -46,11 +46,10 @@ h2 {
   margin-top: 10px;
 }
 .para {
-  font-size: 15px;
-/*   padding-top: 10px;
-  padding-bottom: 10px; */
+   font-size: 15px;
   padding: 10px;
-  margin: 10px;
+  font-size: 12px;
+  width: 100%;
 }
 .hosting-btn,
 .cost-btn,
